@@ -1,0 +1,528 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "admin-settings-screen;the-user-locates-admin-settings",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "The user locates admin settings",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is in the \"Announcements\" homepage",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_03_HomeScreen.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6125240199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user opens the hamburger menu",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_03_HomeScreen.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 382977244
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the \"Admin settings\" is visible",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_03_HomeScreen.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77709137
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 257574
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "admin-settings-screen",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Admin settings screen",
+    "tags": [],
+    "uri": "features/GN_03.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "event-tab;the-user-opens-the-admin-settings-and-the-event-tab-is-visible",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "The user opens the admin settings and the event tab is visible",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the \"Admin settings\" is visible",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_03_HomeScreen.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34909169
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user opens the \"Admin settings\"",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_04_HomeScreen.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 789968310
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the \"Administration\" page should be displayed test",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_04_HomeScreen.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 203458359
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the \"Event\" tab should be displayed Admin_settings",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_04_HomeScreen.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4135771
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 99551
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "event-tab",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Event tab",
+    "tags": [],
+    "uri": "features/GN_04.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "event-creation-page;the-user-navigates-to-the-event-creation-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "The user navigates to the event creation page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is in the \"Administration\" page",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_05_AdminSettings.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3058276
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user clicks the \"Event\" tab",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_05_AdminSettings.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51737423
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the \"Event\" page should be displayed",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_05_AdminSettings.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 384861792
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 88176
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "event-creation-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Event creation page",
+    "tags": [],
+    "uri": "features/GN_05.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "save-disabled;the-user-leaves-the-event-id-field-blank-and-the-save-button-remains-disabled-at-the-bottom",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "The user leaves the event ID field blank and the save button remains disabled at the bottom",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on \"Event\" page",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_06_EventCreation.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26695583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the event ID field is empty",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_06_EventCreation.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4011270
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the save button at the bottom is disabled",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_06_EventCreation.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1116879
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 55364
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "save-disabled",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Save disabled",
+    "tags": [],
+    "uri": "features/GN_06.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verification-status-dropdown-suggestion;the-user-enters-text-in-the-verification-status-dropdown",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "The user enters text in the verification status dropdown",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the \"Verification status\" dropdown should be visible",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_23_EventCreation.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83443329
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user clicks the verification status dropdown",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_23_EventCreation.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151055735
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user enters \"inf\" Verification_status",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_23_EventCreation.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15706083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "\"Infomation Only\" should be displayed in the dropdown",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 74826
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "verification-status-dropdown-suggestion",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verification status dropdown suggestion",
+    "tags": [],
+    "uri": "features/GN_23.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verification-status-dropdown-selection;the-user-selects-an-item-from-the-verification-status-dropdown",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "The user selects an item from the verification status dropdown",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the \"Verification status\" dropdown is cleared",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_24_EventCreation.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 170806
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user clicks verification status dropdown",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_24_EventCreation.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 309389547
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user selects \"Infomation Only\"",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_24_EventCreation.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122161121
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "\"Infomation Only\" should be displayed in the field",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_24_EventCreation.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3620841
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 52206
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "verification-status-dropdown-selection",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verification status dropdown selection",
+    "tags": [],
+    "uri": "features/GN_24.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "ihr-assessment-dropdown-suggestion;the-user-enters-text-in-the-ihr-assessment-dropdown",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "The user enters text in the IHR assessment dropdown",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the \"IHR assessment\" dropdown should be visible IHR_assessment",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_25_EventCreation.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62682630
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user clicks the IHR assessment dropdown",
+            "match": {
+              "location": "test/steps/Event_Creation_NN/GN_25_EventCreation.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60940821
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user enters \"not\"",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "\"Not applicable\" should be displayed in the dropdown",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 83954
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "ihr-assessment-dropdown-suggestion",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "IHR assessment dropdown suggestion",
+    "tags": [],
+    "uri": "features/GN_25.feature"
+  }
+]

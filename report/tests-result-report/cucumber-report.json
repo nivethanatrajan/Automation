@@ -1,0 +1,171 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-the-new;automated-login-testing",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "AUTOMATED Login Testing",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 817228100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The user navigates to the homepage",
+            "match": {
+              "location": "src\\steps\\GN_01_Loginsteps.ts:15"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5613478100,
+              "error_message": "page.goto: Navigation failed because page was closed!\n=========================== logs ===========================\nnavigating to \"https://goarn-uat.adapptlabs.com/kp\", waiting until \"domcontentloaded\"\n============================================================\n    at PlaywrightWrapper.goto (C:\\PlayWrightLogin\\util\\commonfile\\playwrightwrapper.ts:9:25)\n    at LoginPage.navigateToRegisterPage (C:\\PlayWrightLogin\\src\\module\\Gn_01_LoginPages.ts:20:25)\n    at World.<anonymous> (C:\\PlayWrightLogin\\src\\steps\\GN_01_Loginsteps.ts:18:25)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User click on the Login using Azure button",
+            "match": {
+              "location": "src\\steps\\GN_01_Loginsteps.ts:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Signin text show",
+            "match": {
+              "location": "src\\steps\\GN_01_Loginsteps.ts:24"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Click the Signin negative",
+            "match": {
+              "location": "src\\steps\\GN_01_Loginsteps.ts:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Click the Signin positive",
+            "match": {
+              "location": "src\\steps\\GN_01_Loginsteps.ts:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Show Multi factor",
+            "match": {
+              "location": "src\\steps\\GN_01_Loginsteps.ts:40"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 17325500,
+              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at World.<anonymous> (C:\\PlayWrightLogin\\util\\hooks\\hooks.ts:26:58)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-the-new",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login the new",
+    "tags": [],
+    "uri": "src\\features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "creating-new-user;automated",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "AUTOMATED",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 902025499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user goback",
+            "match": {
+              "location": "src\\steps\\GN_02_usercreationsteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3786599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 162652999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "creating-new-user",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Creating New user",
+    "tags": [],
+    "uri": "src\\features\\usercreation.feature"
+  }
+]
